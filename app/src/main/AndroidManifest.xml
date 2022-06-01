@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.brainybearapp" >
+    
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrainyBearApp" >
+
+        <activity
+            android:name=".Activity_family"
+            android:exported="false" />
+        <activity
+            android:name=".storyyyyyy_Test_Activity"
+            android:exported="true" >
+
+        </activity>
+
+        <activity
+            android:name=".imageRecognition.imageRecog"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Advanced.ActivityAdvancedGame"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced.ActivityAdvancedTest"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced.ScoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityAlphabet"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".ActivityTest"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityShapes"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityColors"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityNumbers"
+            android:exported="true" />
+        <activity
+            android:name=".paint.ActivityPaint"
+            android:exported="true" />
+        <activity
+            android:name=".AdvancedHomePage"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".home_page"
+            android:exported="true" />
+        <activity
+            android:name=".dashBoard"
+            android:exported="true" />
+        <activity
+            android:name=".ChoosePathActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

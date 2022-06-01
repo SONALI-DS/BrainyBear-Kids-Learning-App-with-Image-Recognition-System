@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#03FFEA</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#00FFE6</color>
+    <color name="teal_700">#83D400</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorRim">#3d3d3b</color>
+    <color name="colorCustom">?colorButtonNormal</color>
+    <color name="colorCustomDisabled">#CDCECECE</color>
+    <color name="colorCustomFocused">#BDBDBD</color>
+
+
+    <color name="colorGrey">#5E5E5E</color>
+    <color name="colorPink">#FB306C</color>
+    <color name="colorGreen">#02FA0C</color>
+    <color name="colorBlueyGreen">#58E4E0</color>
+    <color name="colorPurple">#8441FB</color>
+    <color name="colorBlue">#1B3CF6</color>
+    <color name="colorGreenyBlue">#00245A</color>
+    <color name="colorOrange">#FF690C</color>
+    <color name="colorPinkyPurple">#972A73</color>
+    <color name="colorRed">#CA0202</color>
+    <color name="colorYellow">#FFC107</color>
+    <color name="colorBlueyPurple">#7A9AFF</color>
+    <color name="colorBlack">#131313</color>
+    <color name="colorMintyBlue">#BFEDE9</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>

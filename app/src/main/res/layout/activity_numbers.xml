@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNumbers"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:elevation="55dp"
+        android:backgroundTint="#00BCD4"
+        app:cardCornerRadius="5dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/imageViewOne"
+            android:layout_width="373dp"
+            android:layout_height="406dp"
+            android:layout_gravity="center"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/imageViewTwo"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/two" />
+
+        <ImageView
+            android:id="@+id/imageViewThree"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/three" />
+
+        <ImageView
+            android:id="@+id/imageViewFour"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/four" />
+
+        <ImageView
+            android:id="@+id/imageViewFive"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/five" />
+
+        <ImageView
+            android:id="@+id/imageViewSix"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/six" />
+
+        <ImageView
+            android:id="@+id/imageViewSeven"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/seven" />
+
+        <ImageView
+            android:id="@+id/imageViewEight"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/eight" />
+
+        <ImageView
+            android:id="@+id/imageViewNine"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nine" />
+
+        <ImageView
+            android:id="@+id/imageViewTen"
+            android:layout_width="355dp"
+            android:layout_height="365dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ten" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/ml_buttonbg"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Previous"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/ml_buttonbg"
+        android:elevation="20dp"
+        android:text="Previous"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

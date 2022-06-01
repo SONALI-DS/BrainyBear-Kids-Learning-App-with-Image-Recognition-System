@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BrainyBearApp</string>
+    <string name="story_name">Princess Ariel</string>
+    <string name="colour_picker_header">Select a colour</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_select">Select</string>
+
+    <string name="rationale_header">Permission required</string>
+    <string name="text_description">Storage access is needed to save or share images.</string>
+    <string name="button_allow">Allow</string>
+    <string name="story_Princess">Deep in an ocean lived a sea princess Ariel, also known as the Little Mermaid. She had a dear friend called Flounder, a small fish. They loved exploring the sea beds and sometimes the seashores, but Ariel had a dream of living on the land as a Human. She was always in search of objects or treasures used by a human.</string>
+    <string name="story_Princess2">Her father, King Triton, who was the ruler of the sea, discovers about Ariel’s adventures and warns her to never visit the shore again. He assigns Sebastian, a crab, to keep a watch on Ariel. But the stubborn Ariel continues to visit the shore. One night, a dreadful storm sweeps a ship across the sea and a young man, Eric, falls into the ocean. Ariel saves Eric and pulls him to the shore. Eric falls in love with her and it is later discovered that Eric is a human prince.</string>
+    <string name="story_Princess3">Ariel is desperate to meet Eric again and approaches Ursula, a sea witch for help. The sea witch casts a spell on Ariel, steals her voice and turns her into a human. Ariel is unaware of the hidden objective behind Ursula’s favor. Ariel is given three days time and by the sunset of the third day, if Eric does not kiss Ariel, she would become a slave of Ursula.
+Eric and Ariel spend lovely time together. Ursula, disguised as a young pretty girl called Vanessa, casts a spell on Prince Eric and makes him fall in love with her. They decide to marry each other, leaving Ariel disheartened.</string>
+    <string name="story_Princess4">Ariel’s friends discover that Vanessa is Ursula and warns her about it. Sebastian goes to find Ariel’s father King Triton, while Ariel and Flounder hurry to catch Prince Eric’s cruise. Ariel stops the wedding and gets her voice back from the evil witch.</string>
+    <string name="story_Princess5">But as the sun goes down on the third day, Ariel and Eric could not kiss each other and she turns into a mermaid again. To save Ariel, King Triton gives the powers to Ursula and becomes her slave.</string>
+    <string name="story_Princess6">The prince fights and destroys Ursula by ripping her heart apart. Now King Triton regains his powers. Seeing their love, the King grants the wish of Ariel and she becomes a human. Prince Eric and Ariel get married and start living happily in a castle by the sea.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
